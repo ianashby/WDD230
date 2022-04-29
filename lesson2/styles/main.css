@@ -30,6 +30,11 @@ body {
     margin: auto;
 }
 
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
 h2 {
     font-weight: 900;
     line-height: .9em;
@@ -58,4 +63,8 @@ img {
     justify-items: center;
     width: 100%;
     grid-row: 3;
+}
+
+#return_home {
+    text-align: center;
 }
