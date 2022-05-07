@@ -1,0 +1,41 @@
+.cards img {
+    width: 400px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 8px 0px rgb(0, 0, 0, 0.3);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav {
+    background-color: gainsboro;
+}
+
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
