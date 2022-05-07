@@ -45,7 +45,7 @@ h1, h2 {
 }
 
 /* LOGO */
-#img {
+.img {
     display: flex;
     justify-content: center;
 }
@@ -81,7 +81,7 @@ h1, h2 {
 
 #typography a {
     text-decoration: none;
-    color: #fca311;
+    color: dodgerblue;
 }
 
 /* MEDIA QUERIES */
