@@ -11,15 +11,18 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script defer src="scripts/hamburger.js"></script>
+    <script defer src="scripts/date.js"></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="Seattle Chamber of Commerce Logo" id="logo">
+        <div id="logo">
+            <a href=""><img src="images/logo.png" alt="Seattle Chamber of Commerce Logo"></a>
+        </div>
+        <a href="#" id="hamburger">&#9776</a>
         <nav>
             <ul>
-                <li><a href="#" id="hamburger">&#9776</a></li>
                 <li><a href="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
@@ -32,10 +35,10 @@
             <a href="#"><img src="images/linkedin.png" alt="LinkedIn Logo and Link to our LinkedIn"></a>
             <a href="#"><img src="images/youtube.png" alt="Youtube Logo and Link to our Youtube"></a>
         </section>
-        <section class="date">
-            <!-- Date & weather banner -->
-        </section>
+        
     </header>
+
+    <section class="date"></section>
 
     <main>
         <section id="hero">
@@ -61,7 +64,24 @@
     </main>
 
     <footer>
-
+        <section id="about">
+            <img src="images/logo.png" alt="Seattle Chamber of Commerce Logo">
+            <div id="address">
+                <h3>Visit Us</h3>
+                <p>10 Pike Street</p>
+                <p>Seattle, WA 96101</p>
+                <a href="#">Directions</a> 
+            </div>
+            <div id="contact">
+                <h3>Contact Us</h3>
+                <p>info@seattle.com</p>
+                <p>(123) 456-7890</p>
+            </div>
+        </section>
+        <section id="copyright">
+            <p>&copy; <span id="copyrightYear"></span> Seattle Chamber of Commerce | Ian Ashby | WDD230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </section>
     </footer>
 </body>
 
