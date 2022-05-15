@@ -91,7 +91,7 @@ main {
     margin: auto;
 }
 
-main h1 {
+main h1, main h2 {
     display: none;
 }
 
