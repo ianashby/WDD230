@@ -91,6 +91,10 @@ main {
     margin: auto;
 }
 
+main h1 {
+    display: none;
+}
+
 main section {
     height: 200px;
 }
