@@ -34,9 +34,13 @@
     cursor: pointer;
 }
 
+.banner-button img {
+    width: 30px;
+}
+
 .banner-text,
 .banner-button > span {
-    color: #14213d; 
+    color: black; 
 }
 
 .banner-button > span:hover {
