@@ -184,7 +184,7 @@ main section,  main section div {
 }
 
 #spot1 img, #spot2 img, #spot3 img {
-    filter: brightness(.5);
+    /* filter: brightness(.5); */
     width: 100%;
     object-fit: cover;
     /* position: relative; */
