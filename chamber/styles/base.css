@@ -36,7 +36,7 @@
 
 .banner-text,
 .banner-button > span {
-    color: #ffffff; 
+    color: #14213d; 
 }
 
 .banner-button > span:hover {
@@ -192,6 +192,7 @@ main section,  main section div {
 
 #spot1 h3, #spot2 h3, #spot3 h3 {
     color: #e5e5e5;
+    text-shadow: #14213d 5px 5px;
     z-index: 3;
     position: relative;
     top: 200px;
@@ -214,6 +215,14 @@ main section,  main section div {
 
 #news, #event, #join, #weather {
     padding: 10px;
+}
+
+#news a:hover {
+    color: #14213d;
+}
+
+button:hover {
+    background-color: #fca311;
 }
 
 #join button {

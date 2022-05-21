@@ -100,7 +100,7 @@
 
     #news a {
         text-decoration: none;
-        color: #fca311;
+        color: #3a3a3a;
     }
 
     #spotlights {
@@ -140,6 +140,12 @@
         width: 95%;
         height: 400px;
         margin: 10px;
+    }
+
+
+    button:hover {
+        background-color: #fca311;
+        
     }
 
     /* FOOTER */
