@@ -133,21 +133,16 @@ main h1 {
 }
 
 #spotlights h2 {
-    display: block;
-    line-height: 0.2em;
-    padding-top: 10px;
+    display: none;
 }
 
 main section {
-    height: 400px
+    /* height: 400px; */
+    object-fit: cover;
 }
 
 main section div {
     height: 200px;
-}
-
-#spotlights {
-    height: 675px;
 }
 
 main section,  main section div {
@@ -176,7 +171,7 @@ main section,  main section div {
     border: none;
     border-radius: 10px;
     position: relative;
-    bottom: 300px;
+    bottom: 200px;
     z-index: 5;
     width: 200px;
     height: 50px;
@@ -184,11 +179,57 @@ main section,  main section div {
     font-weight: 700;
 }
 
+#spotlights {
+    height: 100%;
+}
+
 #spot1 img, #spot2 img, #spot3 img {
     filter: brightness(.5);
     width: 100%;
     object-fit: cover;
     /* position: relative; */
+}
+
+#spot1 h3, #spot2 h3, #spot3 h3 {
+    color: #e5e5e5;
+    z-index: 3;
+    position: relative;
+    top: 200px;
+    font-size: 2em;
+}
+
+#spotlights a {
+    text-decoration: none;
+}
+
+#spotlights h3:hover {
+    color: #fca311;
+}
+
+#spot1, #spot2, #spot3 {
+    width: 95%;
+    height: 400px;
+    /* margin: -20px; */
+}
+
+#news, #event, #join, #weather {
+    padding: 10px;
+}
+
+#join button {
+    background-color: #14213d;
+    color: #e5e5e5;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    /* bottom: 300px; */
+    z-index: 5;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 footer {
