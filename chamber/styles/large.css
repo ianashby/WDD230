@@ -121,11 +121,12 @@
     }
 
     #spot1 h3, #spot2 h3, #spot3 h3 {
-        color: #fca311;
         z-index: 3;
         position: relative;
         top: 125px;
         font-size: 2em;
+        padding-top: 2px;
+        padding-bottom: 2px;
     }
 
     #spotlights a {

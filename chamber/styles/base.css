@@ -191,8 +191,8 @@ main section,  main section div {
 }
 
 #spot1 h3, #spot2 h3, #spot3 h3 {
-    color: #fca311;
-    text-shadow: #14213d 5px 5px;
+    background-color: #14213d;
+    color: #e5e5e5;
     z-index: 3;
     position: relative;
     top: 200px;
