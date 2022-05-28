@@ -14,7 +14,6 @@
     <script defer src="scripts/main.js"></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
-
 <body>
     <div class="banner">
         <div class="banner-content">
@@ -24,7 +23,7 @@
     </div>
     <header>
         <div id="logo">
-            <a href="index.html"><img src="images/logo.png" alt="Seattle Chamber of Commerce Logo"></a>
+            <a href="index.html"><img src="images/logo.webp" alt="Seattle Chamber of Commerce Logo"></a>
         </div>
         <a href="#" id="hamburger">&#9776;</a>
         <nav>
@@ -36,10 +35,10 @@
             </ul>
         </nav>
         <section class="socials">
-            <a href="#"><img src="images/facebook.png" alt="Facebook Logo and Link to our Facebook"></a>
-            <a href="#"><img src="images/instagram.png" alt="Instagram Logo and Link to our Instagram"></a>
-            <a href="#"><img src="images/linkedin.png" alt="LinkedIn Logo and Link to our LinkedIn"></a>
-            <a href="#"><img src="images/youtube.png" alt="Youtube Logo and Link to our Youtube"></a>
+            <a href="#"><img src="images/facebook.webp" alt="Facebook Logo and Link to our Facebook"></a>
+            <a href="#"><img src="images/instagram.webp" alt="Instagram Logo and Link to our Instagram"></a>
+            <a href="#"><img src="images/linkedin.webp" alt="LinkedIn Logo and Link to our LinkedIn"></a>
+            <a href="#"><img src="images/youtube.webp" alt="Youtube Logo and Link to our Youtube"></a>
         </section>
         
     </header>
@@ -49,8 +48,12 @@
     <main>
         <h1>Seattle Chamber of Commerce</h1>
         <section id="hero">
-            <img src="images/seattle.png" alt="Seattle Skyline with Chamber of Commerce Logo">
-            <button type="button">Discover Us</button>
+            <picture>
+                <source media="(min-width: 1200px)" srcset="images/large.jpg">
+                <source media="(min-width: 700px)" srcset="images/medium.jpg">
+                <img src="images/small.jpg" alt="Seattle Chamber of Commerce Hero Image">
+            </picture>
+            <!-- <button type="button">Discover Us</button> -->
         </section>
         <section id="event">
             <h2>Seattle Events</h2>
@@ -60,9 +63,10 @@
             <p>August 8, 2022: Chamber Board Meeting & Elections</p>
         </section>
         <section id="weather">
-            <h2>86&#8457;</h2>
+            <h2><span id="temp">37</span>&#8457;</h2>
             <hr>
-            <p>Wind: 10 MPH SW</p>
+            <p>Wind: <span id="wind">10</span> MPH SW</p>
+            <p>Wind Chill: <span id="windchill">N/A</span><span id="windDegree"></span></p>
             <p>10% Chance of Rain</p>
         </section>
         <section id="news">
