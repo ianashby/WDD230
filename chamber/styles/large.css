@@ -54,10 +54,13 @@
     /* MAIN */
     main {
         background-color: white;
+        margin: auto;
+    }
+
+    .home {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: 400px 400px 400px;
-        margin: auto;
     }
     
     main section, main section div {
@@ -175,5 +178,11 @@
 
     #copyright-large {
         display: block;
+    }
+
+    .discover picture:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
     }
 }

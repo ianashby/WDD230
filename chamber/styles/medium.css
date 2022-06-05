@@ -4,7 +4,7 @@
     }
 
     /* MAIN */
-    main {
+    .home {
         display: grid;
         grid-template-columns: 1fr 1fr;
         /* grid-template-rows: 300px 300px 300px; */
@@ -114,4 +114,10 @@
     #copyright-large {
         display: block;
     }
+
+    .discover picture:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+      }
 }
