@@ -63,3 +63,7 @@ images.forEach(image => {
     io.observe(image);
 });
 
+submit = document.querySelector('#submit');
+submit.addEventListener('click', () => {
+    window.location.href="thanks.html";
+});

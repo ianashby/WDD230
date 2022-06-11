@@ -185,4 +185,18 @@
       -webkit-box-shadow: 0 0 10px #ccc;
       box-shadow: 0 0 10px #ccc;
     }
+
+    .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+    }
+
+    label, textarea, select{
+        display: inline-block;
+        float: left;
+        clear: left;
+        width: 650px;
+        text-align: left;
+    }
 }
