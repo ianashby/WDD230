@@ -8,6 +8,7 @@ async function getProphets(requestURL) {
         const prophets = data['prophets'];
         prophets.forEach(prophet => {
             displayProphets(prophet);
+            // displayTable(prophet);
         });
     }
 }
@@ -40,4 +41,25 @@ function displayProphets(prophet) {
 
     // Append card to the DOM (the prophet list).
     document.querySelector('div.cards').appendChild(card);
+}
+
+function displayTable(prophet) {
+    let tableRow = document.createElement('tr');
+
+    // Prophet Name
+    let tableName = document.createElement('td');
+    tableName.textContent = prophet.name + ' ' + prophet.lastname;
+    tableRow.appendChild(tableName);
+
+    // Prophet Birthdate
+    let tableBirthdate = document.createElement('td');
+    tableBirthdate.textContent = prophet.birthdate;
+    tableRow.appendChild(tableBirthdate);
+
+    // Prophet Birthplace
+    let tableBirthplace = document.createElement('td');
+    tableBirthplace.textContent = prophet.birthplace;
+    tableRow.appendChild(tableBirthplace);
+
+    document.querySelector('table').appendChild(tableRow);
 }
