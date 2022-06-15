@@ -35,6 +35,7 @@ function displayProphets(prophet) {
     // Prophet Image
     let image = document.createElement('img');
     image.setAttribute('src', prophet.imageurl);
+    image.setAttribute('alt', `${prophet.name} ${prophet.lastname} ${prophet.order}`);
     card.appendChild(image);
 
     // Append card to the DOM (the prophet list).
