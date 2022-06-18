@@ -409,6 +409,7 @@ input {
 }
 .directory img {
     width: 300px;
+    height: 180px;
 }
 
 .directory a {
