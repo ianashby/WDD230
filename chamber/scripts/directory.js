@@ -101,7 +101,7 @@ function displayTable(business) {
 
     // Business Website
     let website = document.createElement('td');
-    website.textContent = business.website;
+    website.innerHTML = `<a href="${business.website}">Website</a>`;
     tableRow.appendChild(website);
 
     document.querySelector('table').appendChild(tableRow);
