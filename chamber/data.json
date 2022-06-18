@@ -24,7 +24,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://www.chihulygardenandglass.com",
-            "logo": "images/directory/glass.jpg"
+            "logo": "images/directory/glass.webp"
         },
         {
             "name": "Patagucci Clothing Store",
@@ -37,7 +37,7 @@
             },
             "phone": "123-456-7890",
             "website": "http://www.patagucci.com",
-            "logo": "images/directory/patagucci.jpg"
+            "logo": "images/directory/patagucci.webp"
         },
         {
             "name": "Mother Nature's Plants",
@@ -50,7 +50,7 @@
             },
             "phone": "123-456-7890",
             "website": "http://www.motherearth.com",
-            "logo": "images/directory/plants.jpg"
+            "logo": "images/directory/plants.webp"
         },
         {
             "name": "Pizzeria",
@@ -63,7 +63,7 @@
             },
             "phone": "123-456-7890",
             "website": "http://www.pizzeria.com",
-            "logo": "images/directory/pizza.jpg"
+            "logo": "images/directory/pizza.webp"
         },
         {
             "name": "Metropolitan Market",
@@ -76,7 +76,7 @@
             },
             "phone": "123-456-7890",
             "website": "https://metropolitan-market.com/",
-            "logo": "images/directory/grocery.jpg"
+            "logo": "images/directory/grocery.webp"
         },
         {
             "name": "Ellenos",
@@ -89,7 +89,7 @@
             },
             "phone": "(206) 535-7562",
             "website": "https://ellenos.com",
-            "logo": "images/directory/ellenos.jpg"
+            "logo": "images/directory/ellenos.webp"
         },
         {
             "name": "Seattle Public Library",
@@ -102,7 +102,7 @@
             },
             "phone": "(206) 386-4636",
             "website": "https://www.spl.org/",
-            "logo": "images/directory/library.jpg"
+            "logo": "images/directory/library.webp"
         },
         {
             "name": "The Space Needle",
@@ -115,7 +115,7 @@
             },
             "phone": "(206) 905-2100",
             "website": "https://www.spaceneedle.com/",
-            "logo": "images/directory/spaceneedle.jpg"
+            "logo": "images/directory/spaceneedle.webp"
         },
         {
             "name": "Seattle Aquarium",
@@ -128,7 +128,7 @@
             },
             "phone": "(206) 386-4300",
             "website": "https://www.seattleaquarium.org",
-            "logo": "images/directory/aqua.jpg"
+            "logo": "images/directory/aqua.webp"
         },
         {
             "name": "Amazon Spheres",
@@ -141,7 +141,7 @@
             },
             "phone": "(123-456-7890)",
             "website": "https://www.seattlespheres.com",
-            "logo": "images/directory/spheres.jpg"
+            "logo": "images/directory/spheres.webp"
         },
         {
             "name": "The Pink Door",
@@ -154,7 +154,7 @@
             },
             "phone": "(206) 443-3241",
             "website": "https://www.thepinkdoor.net",
-            "logo": "images/directory/pinkdoor.jpg"
+            "logo": "images/directory/pinkdoor.webp"
         }
     ]
 }
