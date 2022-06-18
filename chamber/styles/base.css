@@ -408,8 +408,7 @@ input {
     text-align: center;
 }
 .directory img {
-    width: 100%;
-    /* box-shadow: 5px 10px 8px 5px #888888; */
+    width: 300px;
 }
 
 .directory a {
