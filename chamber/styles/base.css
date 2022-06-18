@@ -407,7 +407,7 @@ input {
     color: #14213d;
     text-align: center;
 }
-.directory img {
+.directory .cards img {
     width: 300px;
     height: 180px;
 }
