@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="styles/large.css">
     <script defer src="scripts/main.js"></script>
     <script defer src="scripts/visits.js"></script>
+    <script defer src="scripts/directory.js"></script>
     <title>Seattle Chamber of Commerce</title>
 </head>
 <body>
@@ -46,9 +47,15 @@
 
     <section class="date"></section>
 
-    <main class="thanks">
-        <h1>Thank you for your submission.</h1>
-        <h3>We will get back to you shortly!</h3>
+    <main class="directory">
+        <div class="icons">
+            <button id="grid"><img src="images/directory/grid.svg" alt="Grid View"></button>
+            <button id="list"><img src="images/directory/list.svg" alt="List View"></button>
+        </div>
+        <div class="displayItems">
+        <div class="cards"></div>
+        <table class="table"></table>
+    </div>
     </main>
 
     <footer>

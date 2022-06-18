@@ -199,4 +199,8 @@
         width: 650px;
         text-align: left;
     }
+
+    tr td {
+        display: table-cell;
+    }
 }
