@@ -88,6 +88,11 @@
         grid-row: 2;
     }
 
+    #weather_top {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
     #join {
         grid-column: 1;
         grid-row: 3;
