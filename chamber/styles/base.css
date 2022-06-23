@@ -463,3 +463,13 @@ tr:nth-child(odd) {
 tr td {
     display: block;
 }
+
+#weather_top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#weather_top h2{
+    text-align: center;
+    font-size: 3em;
+}

@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="styles/large.css">
     <script defer src="scripts/main.js"></script>
     <script defer src="scripts/visits.js"></script>
-    <script defer src="scripts/chill.js"></script>
+    <script defer src="scripts/weather.js"></script>
+    <!-- <script defer src="scripts/chill.js"></script> -->
     <title>Seattle Chamber of Commerce</title>
 </head>
 <body>
@@ -65,11 +66,16 @@
             <p>August 8, 2022: Chamber Board Meeting & Elections</p>
         </section>
         <section id="weather">
-            <h2><span id="temp">37</span>&#8457;</h2>
+            <h2>Weather</h2>
+            <div id="weather_top">
+                <h2><span id="temp"></span>&#8457;</h2>
+                <figure><img src="" alt="" id="weathericon" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
             <hr>
-            <p>Wind: <span id="wind">10</span> MPH SW</p>
-            <p>Wind Chill: <span id="windchill">N/A</span><span id="windDegree"></span></p>
-            <p>10% Chance of Rain</p>
+            <p>Wind: <span id="wind"></span> MPH</p>
+            <p>Wind Chill: <span id="windchill"></span><span id="windDegree"></span></p>
         </section>
         <section id="news">
             <h2>Seattle News</h2>

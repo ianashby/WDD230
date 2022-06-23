@@ -23,7 +23,6 @@ hamburger.addEventListener('click', () => {
 });
 
 let day = date.getDay();
-console.log(day);
 
 if (day == 1 || day == 2) {
     let banner = document.querySelector('.banner');
