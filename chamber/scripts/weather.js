@@ -3,7 +3,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5809844&appid
 const getWeather = async () => {
     const response = await fetch(apiURL);
     jsObject = await response.json();
-    console.log(jsObject);
 
     let temp = kelvinToFahrenheit(jsObject.main.temp);
     document.querySelector('#temp').textContent = temp;
