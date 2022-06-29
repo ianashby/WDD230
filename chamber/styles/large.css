@@ -197,15 +197,22 @@
         padding: 50px;
     }
 
-    label, textarea, select{
-        display: inline-block;
-        float: left;
-        clear: left;
-        width: 650px;
-        text-align: left;
-    }
-
     tr td {
         display: table-cell;
     }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+
+    .board {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    
 }

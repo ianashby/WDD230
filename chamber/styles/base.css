@@ -293,7 +293,7 @@ footer a {
     margin: 10px;
 }
 
-.join h1 {
+.form h1 {
     display: block;
     text-align: center;
 }
@@ -305,17 +305,24 @@ footer a {
     justify-content: center;
     align-items: center;
     margin: 50px auto;
+    color: black;
 }
 
-.form form input {
+.form form input, .form textarea {
+    font-size: 1em;
     width: 450px;
+    height: 30px;
     padding: 10px;
     margin: 10px auto;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     /* font-size: 1.5em; */
-    font-weight: 700;
+    font-weight: 500;
     background-color: #e5e5e5;
+}
+
+.form textarea {
+    height: 250px;
 }
 
 .form form label {
@@ -327,28 +334,13 @@ footer a {
 
 label, textarea, select{
     display: inline-block;
-    float: left;
+    /* float: left; */
     clear: left;
     width: 450px;
     text-align: left;
 }
 
-textarea {
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 15px;
-}
-
-textarea {
-    height: 200px;
-}
-
-input {
-  display: inline-block;
-  float: right;
-}
-
-.join #submit {
+.form #submit {
     background-color: #14213d;
     color: white;
     cursor: pointer;
@@ -365,7 +357,7 @@ input {
     margin: 15px;
 }
 
-.join #submit:hover {
+.form #submit:hover {
     background-color: #fca311;
 }
 
@@ -379,7 +371,7 @@ input {
     text-align: center;
 }
 
-.thanks h1 {
+.thanks h1, .board h1 {
     display: block;
 }
 
@@ -473,3 +465,26 @@ tr td {
     text-align: center;
     font-size: 3em;
 }
+
+.board {
+    padding: 10px;
+}
+
+.board img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
