@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    margin: 0px auto;
+    /* max-width: 1200px; */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+nav li {
+    list-style-type: none;
+    padding: 20px 51px;
+}
+
+nav li:hover {
+    background-color: #53935e;
+    font-weight: 600;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #3a5a40;
+}
+
+section {
+    margin: auto 150px;
+    line-height: 1.5em;
+    /* font-size: .7em; */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* LOGO */
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+/* PURPOSE */
+#purpose {
+    text-align: left;
+}
+
+/* DOMAIN */
+#domain {
+    text-align: center;
+}
+
+#domain a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+#domain a:hover {
+    color: rgb(0, 117, 235);
+}
+
+#coolors_palette {
+    margin: 50px 50px;
+}
+
+#typography {
+    text-align: center;
+    font-size: 1em;
+}
+
+#typography a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 900px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
