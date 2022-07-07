@@ -32,6 +32,17 @@ header {
     z-index: 1;
 }
 
+header ul li {
+    display: none;
+}
+
+header #hamburger {
+    display: block;
+    margin-left: 50px;
+    margin-right: -50px;
+    cursor: pointer;
+}
+
 header nav a {
     color: white;
     text-decoration: none;
@@ -61,6 +72,10 @@ header h1 {
     font-weight: 700;
 }
 
+.responsive li {
+    display: block;
+}
+
 main {
     background-color: white;
 }
@@ -72,6 +87,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    overflow: hidden;
+    object-fit: cover;
     /* z-index: -1; */
 }
 
@@ -203,4 +220,15 @@ footer {
 
 footer h1 {
     color: black;
+}
+
+
+@media screen and (min-width: 950px) {
+    header #hamburger {
+        display: none;
+    }
+
+    header ul li {
+        display: block;
+    }
 }
