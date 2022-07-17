@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/ianashby/WDD230/main/portfolio/data/portfolio_images.json';
+const requestURL = 'https://raw.githubusercontent.com/ianashby/WDD230/main/portfolio/portfolio_images.json';
 
 async function getData(requestURL) {
   const response = await fetch(requestURL);
