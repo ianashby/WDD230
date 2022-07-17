@@ -3,15 +3,29 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     /* background-color: black; */
 }
 
 html, body {
     background-color: white;
+    margin: 0 auto;
+}
+
+.home {
+    background-color: black;
+}
+
+.home-footer {
+    background-color: black;
+}
+
+img {
+    pointer-events: none;
 }
 
 header {
+    margin: 0 auto;
     margin-top: 25px;
     padding: 10px;
     padding-left: 40px;
@@ -96,6 +110,14 @@ main {
     background-color: white;
 }
 
+.hero-img {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+
+.image_preview {
+    background-image: url("images/DSCF1226.jpg");
+}
+
 .hero img {
     width: 100%;
     height: 100vh;
@@ -170,19 +192,25 @@ main {
     animation-timing-function: ease;
 }
 
-.recent-work {
+.recent-work h2 {
+    color: white;
+    text-align: center;
+}
+
+.recent-work-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-evenly; */
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
 }
 
 .recent-work #card {
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,7 +219,7 @@ main {
     overflow: hidden;
     cursor: pointer;
     color: white;
-    border: 5px solid white;
+    /* border: 5px solid white; */
 }
 
 .recent-work #card img {
@@ -216,12 +244,34 @@ main {
 
 footer {
     background-color: white;
-    color: black;
+    color: white;
     padding: 10px;
 }
 
 footer h1 {
-    color: black;
+    color: white;
+}
+
+.socials img {
+    filter: invert(1);
+    width: 30px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.about-img img {
+    width: 500px;
+    border-radius: 10px;
 }
 
 

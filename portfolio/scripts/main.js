@@ -1,5 +1,5 @@
 // Prevent Right Clicking & Saving Images
-document.addEventListener('contextmenu', event => event.preventDefault());
+// document.addEventListener('contextmenu', event => event.preventDefault());
 
 // Hamburger Menu
 let hamburger = document.querySelector('#hamburger');
