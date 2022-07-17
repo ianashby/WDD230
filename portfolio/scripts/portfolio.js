@@ -6,15 +6,20 @@ async function getData(requestURL) {
       const data = await response.json();
 
       const photos = data['images'];
+      let num = 0;
 
       photos.forEach(photo => {
-          displayPhotos(photo);
+          if (num < 3) {
+              num++;
+          } else {
+              num = 1;
+          }
+          displayPhotos(photo, num);
       });
   }
 }
 
 getData(requestURL);
-
 
 {/* 
 <picture>
@@ -26,7 +31,7 @@ getData(requestURL);
 </picture> 
 */}
 
-function displayPhotos(photo) {
+function displayPhotos(photo, num) {
     let card = document.createElement('picture');
     let largePhoto = document.createElement('source');
     largePhoto.setAttribute('media', '(min-width: 650px)');
@@ -42,32 +47,5 @@ function displayPhotos(photo) {
     smallPhoto.setAttribute('alt', `${photo.name + ' ' + photo.desc}`);
     card.appendChild(smallPhoto);
     
-    // // Business Name
-    // let h2 = document.createElement('h2');
-    // h2.textContent = business.name;
-    // card.appendChild(h2);
-
-    // // Business Type
-    // let type = document.createElement('p');
-    // type.textContent = business.type;
-    // card.appendChild(type);
-
-    // // Business Address
-    // let address = document.createElement('p');
-    // address.textContent = business.location.address1 + ' ' + ' ' + business.location.city + ', ' + business.location.state + ' ' + business.location.zip_code;
-    // card.appendChild(address);
-
-    // // Business Phone
-    // let phone = document.createElement('p');
-    // phone.textContent = business.phone;
-    // card.appendChild(phone);
-
-    // // Business Website
-    // let website = document.createElement('a');
-    // website.setAttribute('href', business.website);
-    // website.textContent = 'Website';
-    // card.appendChild(website);
-
-    // Append card to the DOM (the prophet list).
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector(`.column${num}`).appendChild(card);
 }
