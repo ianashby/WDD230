@@ -34,13 +34,13 @@ getData(requestURL);
 function displayPhotos(photo, num) {
     let card = document.createElement('picture');
     let largePhoto = document.createElement('source');
-    largePhoto.setAttribute('media', '(min-width: 650px)');
+    // largePhoto.setAttribute('media', '(min-width: 650px)');
   
     let smallPhoto = document.createElement('img');
 
     // Large Image
     largePhoto.setAttribute('srcset', photo.large_img);
-    card.appendChild(largePhoto);
+    // card.appendChild(largePhoto);
 
     // Small Image
     smallPhoto.setAttribute('src', photo.small_img);
