@@ -8,7 +8,7 @@
 }
 
 html, body {
-    background-color: black;
+    background-color: white;
     margin: 0 auto;
 }
 
@@ -47,6 +47,7 @@ header {
 
 header ul li {
     display: none;
+    background-color: transparent;
 }
 
 header #hamburger {
