@@ -223,7 +223,7 @@ main {
 }
 
 .recent-work #card:hover {
-    width: 150%;
+    width: 200%;
 
 }
 
@@ -239,12 +239,21 @@ main {
     object-fit: cover;
 }
 
+.recent-work #card img {
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 50%, transparent 100%);
+}
+
 .recent-work .work-info {
     position: absolute;
     bottom: 20px;
     left: 20px;
     background-color: transparent;
     color: white;
+}
+
+.moments {
+    color: white;
+    text-align: center;
 }
 
 .home-footer .socials img {
