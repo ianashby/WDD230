@@ -192,11 +192,6 @@ main {
     animation-timing-function: ease;
 }
 
-.recent-work h2 {
-    color: white;
-    text-align: center;
-}
-
 .recent-work-cards {
     display: flex;
     flex-direction: row;
@@ -205,6 +200,11 @@ main {
     margin-top: 30px;
     /* margin-left: 10px; */
     /* margin-right: 10px; */
+}
+
+.recent-work h2 {
+    text-align: center;
+    color: white;
 }
 
 .recent-work #card {
@@ -220,6 +220,11 @@ main {
     cursor: pointer;
     color: white;
     /* border: 5px solid white; */
+}
+
+.recent-work #card:hover {
+    width: 150%;
+
 }
 
 .recent-work #card img {
@@ -242,19 +247,8 @@ main {
     color: white;
 }
 
-footer {
-    background-color: white;
-    color: white;
-    padding: 10px;
-}
-
-footer h1 {
-    color: white;
-}
-
-.socials img {
+.home-footer .socials img {
     filter: invert(1);
-    width: 30px;
 }
 
 .about {
@@ -271,7 +265,7 @@ footer h1 {
 
 .about-img img {
     width: 500px;
-    border-radius: 10px;
+
 }
 
 .gallery-filters button {
@@ -286,6 +280,100 @@ footer h1 {
 
 .gallery-filters button:hover {
     color: #3a5a40;
+}
+
+.home-footer {
+    background-color: black;
+    color: white;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.socials img {
+    width: 30px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+.contact-form {
+    text-align: center;
+    grid-column: 2;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form form input {
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: auto
+}
+
+.contact-form textarea {
+    width: 70%;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    cursor: auto;
+}
+
+.contact-form #submit {
+    cursor: pointer;
+    width: 40%;
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
+
+.contact-form #submit:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.contact-info {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#footer-logo {
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 1.8em;
 }
 
 @media screen and (min-width: 950px) {
