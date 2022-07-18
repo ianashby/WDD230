@@ -20,6 +20,10 @@ html, body {
     background-color: black;
 }
 
+.home-header {
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
 img {
     pointer-events: none;
 }
@@ -47,7 +51,6 @@ header {
 
 header ul li {
     display: none;
-    background-color: transparent;
 }
 
 header #hamburger {
@@ -63,10 +66,12 @@ header nav a {
     font-size: 1em;
     text-align: center;
     font-weight: 300;
+    background-color: transparent;
 }
 
 header nav a:hover {
     color: black;
+
 }
 
 header nav ul {
