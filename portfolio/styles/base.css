@@ -114,6 +114,7 @@ header h1 {
 
 .header a {
   color: black;
+  text-decoration: none;
 }
 
 .header a:hover {
@@ -191,7 +192,7 @@ main {
 }
 
 .hero #hero-button:hover {
-  color: black; /* Change the color of the button on hover */
+  color: rgb(138, 138, 138); /* Change the color of the button on hover */
 }
 
 .hero #hero-button a {
