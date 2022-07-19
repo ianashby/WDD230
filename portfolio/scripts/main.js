@@ -1,12 +1,18 @@
-// Hamburger Menu
-let hamburger = document.querySelector('#hamburger');
-let nav = document.querySelector('header');
 
-hamburger.addEventListener('click', () => {
-    nav.classList.toggle('responsive');
-});
 
 // Copyright Date
 let date = new Date();
 let year = date.getFullYear();
 document.querySelector('#copyrightYear').innerHTML = year;
+
+
+const open = document.querySelector('.open-menu');
+const overlay = document.querySelector('.overlay');
+const hero = document.querySelector('#hero-msg');
+const header = document.querySelector('header');
+
+open.addEventListener('click', function(){
+  open.classList.toggle('active');
+  overlay.classList.toggle("open");
+  hero.classList.toggle("open");
+});

@@ -10,24 +10,34 @@
     <title>Ian Ashby Photography</title>
 </head>
 <body>
-    <header class="black-header">
+    <header class="home-header header">
         <div class="header-logo">
             <h1 class="logo"><a href="index.html">Ian!</a></h1>
         </div>
-        <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="socials"></div>
+        <div class="open-menu">
+            <span class="line black-line"></span>
+            <span class="line black-line"></span>
+            <span class="line black-line"></span>
+        </div>
+        <div class="overlay">
+            <nav class="overlay--menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="contact">
+        <div class="contact-info">
+            <div class="contact-info-item">
+                <h3>Want to work together?</h3>
+                <p>I'm always looking for new opportunities to work with amazing people.</p>
+                <p>Send me a message with your inquiry and I will get back to you as soon as possible.</p>
+            </div>
+        </div>
         <div class="contact-form">
             <form action="#" method="post">
                 <label for="name">Name</label>
@@ -39,12 +49,7 @@
                 <input type="submit" value="Send" id="submit">
             </form>
         </div>
-        <div class="contact-info">
-            <div class="contact-info-item">
-                <h3>Want to work together?</h3>
-                <p>I'm always looking for new opportunities to work with amazing people.</p>
-                <p>Send me a message with your inquiry and I will get back to you as soon as possible.</p>
-            </div>
+        
     </main>
     <footer class="footer">
         <div id="about">

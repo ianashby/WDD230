@@ -16,19 +16,21 @@
         <div class="header-logo">
             <h1 class="logo"><a href="index.html">Ian!</a></h1>
         </div>
-        <svg id="hamburger" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-        </svg>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="open-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="overlay">
+            <nav class="overlay--menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="home">
         <div class="hero">
@@ -63,15 +65,19 @@
                 <div class="card">
                     <img src="images/1.jpg" alt="Grand Tetons On Film" draggable="false">
                     <div class="work-info">
-                        <h2>Grand Tetons on Film</h2>
+                        <a href="tetons.html" id="tetons">
+                            <h2>Grand Tetons on Film</h2>
+                        </a>
                         <p>2021</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/2.jpg" alt="Palisades Lake in July" draggable="false">
                     <div class="work-info">
-                        <h2>Palisades Lake in July</h2>
-                        <p>2021</p>
+                        <a href="college.html">
+                            <h2>Photography 1</h2>
+                        </a>
+                        <p>2020</p>
                     </div>
                 </div>
                 <div class="card">
